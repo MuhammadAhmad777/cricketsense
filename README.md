@@ -1,7 +1,8 @@
 # 🏏 CricketSense
 
-**CricketSense** is an AI-powered reasoning assistant that analyzes cricket-related data and provides meaningful answers with logical explanations.  
-Built using **Python (FAISS + FastAPI)** for backend reasoning and **React + TypeScript (Vite)** for the frontend UI.
+**CricketSense** is an **AI-powered reasoning assistant** that analyzes cricket-related data and provides logical, human-like explanations.  
+It leverages **RAG (Retrieval-Augmented Generation)** for contextual retrieval and **Chain-of-Thought (CoT)** + **ReAct (Reason + Action)** prompting for intelligent step-by-step reasoning.  
+Built using **Python (FAISS + FastAPI)** for backend intelligence and **React + TypeScript (Vite)** for a modern, responsive frontend.
 
 ---
 
@@ -102,10 +103,11 @@ Visit the app at http://localhost:5173
 
 ## 🌟 Features
 
-- Ask AI-based cricket questions
-- Expandable "Show Reason" section
-- Python + React modular architecture
-- Uses FAISS for semantic retrieval and Groq API for reasoning
+- Ask AI-based cricket questions with **contextual reasoning**
+- Expandable “Show Reason” section powered by **CoT + ReAct**
+- Uses **FAISS-based retrieval** for **RAG-style** semantic search
+- Beautiful, responsive React + TypeScript UI
+- Modular architecture with Python-FastAPI backend and React frontend
 
 ---
 
