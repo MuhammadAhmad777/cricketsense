@@ -1,0 +1,58 @@
+# -------------------------
+# Python / backend
+# -------------------------
+ai/cricketpythonenvironment/
+ai/venv/
+venv/
+.env
+.env.*
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# -------------------------
+# FAISS index / large data / extracted JSONs
+# -------------------------
+ai/data/*.index
+ai/data/*.faiss
+ai/data/*.csv
+ai/data/all_json_extracted/
+ai/data/**/*.json
+ai/data/tmp/
+ai/data/cache/
+
+# -------------------------
+# Logs / temp files
+# -------------------------
+*.log
+tmp/
+*.cache
+
+# -------------------------
+# Node / frontend
+# -------------------------
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+npm-debug.log*
+yarn-error.log
+.DS_Store
+
+# -------------------------
+# IDE / OS files
+# -------------------------
+.vscode/
+.idea/
+Thumbs.db
+*.swp
+desktop.ini
+
+# -------------------------
+# Misc
+# -------------------------
+*.bak
+*.old
+*.tmp

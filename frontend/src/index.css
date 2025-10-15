@@ -1,0 +1,25 @@
+/* Full-screen, clean reset */
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #0d1117; /* fallback if background fails */
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* Remove Vite defaults */
+body {
+  display: block;
+  min-width: unset;
+  min-height: unset;
+  place-items: unset;
+}
+
+button {
+  cursor: pointer;
+}
